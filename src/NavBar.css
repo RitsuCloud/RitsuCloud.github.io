@@ -1,0 +1,30 @@
+.higher-NavBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 60px;
+  
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(13, 19, 24);
+  
+  /* needed for it to stay on the top and use up the whole space */
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.name-NavBar{
+  font-size: 22px;
+  font-weight: bolder;
+  padding-left: 120px;
+}
+
+.links-NavBar{
+  width: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-self: end;
+}
