@@ -5,9 +5,8 @@
   height: 60px;
   
   color: white;
-  font-family: 'Open Sans', sans-serif;
   background-color: rgb(13, 19, 24);
-  
+
   /* needed for it to stay on the top and use up the whole space */
   position: fixed;
   left: 0;
