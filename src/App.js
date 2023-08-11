@@ -26,13 +26,10 @@ export default function App() {
         <Navbar/>
       </header>
         <div className='main-body-container' id="main-id">
-          <div className='hidden'>Hello!</div>
-          <div className='hidden'>你好!</div>
-          <div className='hidden'>Hola!</div>
-          <div className='hidden'>My</div>
-          <div className='hidden'>Name</div>
-          <div className='hidden'>Is</div>
-          <div className='hidden'>Chon</div>
+          <div className='hidden'>Welcome!</div>
+          <div className='hidden'>To my </div>
+          <div className='hidden'>Portfolio</div>
+          <div className='hidden'>I am Chon Hin Chou 😄</div>
       </div>
     </div>
   );
