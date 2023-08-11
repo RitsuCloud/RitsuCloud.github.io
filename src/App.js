@@ -25,14 +25,32 @@ export default function App() {
       <header className="App-header">
         <Navbar/>
       </header>
-        <div className='main-body-container' id="main-id">
-          <div className='hidden'>Welcome!⬇️😊</div>
-          <div className='hidden'>To My Portfolio</div>
-          <div className='hidden'>I am Chon😄</div>
-      </div>
+      <Intro/>
+      <Contact/>
     </div>
   );
 }
 
+function Intro(){
+  return(
+    <div className='main-body-container' id="main-id">
+      <div className='hidden'>Welcome!⬇️😊</div>
+      <div className='hidden'>To My Portfolio</div>
+      <div className='hidden'>I am Chon😄</div>
+    </div>
+  );
+}
+
+function Contact(){
+  return(
+    <div className='contact-container' id="contact-id">
+      <div>Contact Me👇🏻</div>
+      <p>
+        Gmail: chonhinchou@gmail.com <br></br>
+        Phone Number: (206)489-6409
+      </p>
+    </div>
+  )
+}
 
 
