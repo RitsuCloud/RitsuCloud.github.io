@@ -26,9 +26,8 @@ export default function App() {
         <Navbar/>
       </header>
         <div className='main-body-container' id="main-id">
-          <div className='hidden'>Welcome!</div>
-          <div className='hidden'>To my </div>
-          <div className='hidden'>Portfolio</div>
+          <div className='hidden'>Welcome!⬇️😊</div>
+          <div className='hidden'>To My Portfolio</div>
           <div className='hidden'>I am Chon😄</div>
       </div>
     </div>
