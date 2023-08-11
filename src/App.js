@@ -29,7 +29,7 @@ export default function App() {
           <div className='hidden'>Welcome!</div>
           <div className='hidden'>To my </div>
           <div className='hidden'>Portfolio</div>
-          <div className='hidden'>I am Chon Hin Chou 😄</div>
+          <div className='hidden'>I am Chon😄</div>
       </div>
     </div>
   );
