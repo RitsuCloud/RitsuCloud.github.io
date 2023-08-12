@@ -45,3 +45,12 @@ a:hover{
   font-weight: bolder;
   font-size: 30px;
 }
+
+.my-image-container{
+  background-color: lightblue;
+  text-align: center;
+}
+
+.chon{
+  width:550px;
+}

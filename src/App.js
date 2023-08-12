@@ -1,4 +1,5 @@
 import './style/App.css';
+import Chon from "./imgs/chon.jpg";
 import {useEffect} from "react";
 import Navbar from "./NavBar.js";
 
@@ -26,9 +27,18 @@ export default function App() {
         <Navbar/>
       </header>
       <Intro/>
+      <MyImage/>
       <Contact/>
     </div>
   );
+}
+
+function MyImage(){
+  return(
+    <div className='my-image-container'>
+      <img class="chon" src={Chon} alt="Chon"></img>
+    </div>
+  )
 }
 
 function Intro(){
