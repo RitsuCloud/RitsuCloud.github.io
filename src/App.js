@@ -27,18 +27,9 @@ export default function App() {
         <Navbar/>
       </header>
       <Intro/>
-      <MyImage/>
       <Contact/>
     </div>
   );
-}
-
-function MyImage(){
-  return(
-    <div className='my-image-container'>
-      <img class="chon" src={Chon} alt="Chon"></img>
-    </div>
-  )
 }
 
 function Intro(){
@@ -46,7 +37,10 @@ function Intro(){
     <div className='main-body-container' id="main-id">
       <div className='hidden'>Welcome!⬇️😊</div>
       <div className='hidden'>To My Portfolio</div>
-      <div className='hidden'>I am Chon😄</div>
+      <div className='hidden'>
+        <div>I am Chon😄</div>
+        <img class="chon" src={Chon} alt="Chon"></img>
+        </div>
     </div>
   );
 }
