@@ -15,7 +15,7 @@ export default function App() {
       });
     });
   
-    const hiddenElements = document.querySelectorAll(".hidden");
+    const hiddenElements = document.querySelectorAll(".hidden", ".last-hidden");
     console.log(hiddenElements)
     console.log("huuuuuuh")
     hiddenElements.forEach((el) => observer.observe(el));
@@ -27,7 +27,16 @@ export default function App() {
         <Navbar/>
       </header>
       <Intro/>
+      <Summary/>
       <Contact/>
+    </div>
+  );
+}
+
+function Summary(){
+  return(
+    <div className='summary-container'>
+      <p>This is the summary of myself</p>
     </div>
   );
 }
