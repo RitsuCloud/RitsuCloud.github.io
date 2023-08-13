@@ -35,7 +35,7 @@ export default function App() {
 
 function Summary(){
   return(
-    <div className='summary-container'>
+    <div className='summary-container hidden'>
       <p>This is the summary of myself</p>
     </div>
   );
