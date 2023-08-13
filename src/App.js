@@ -8,7 +8,6 @@ export default function App() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        console.log(entry)
         if (entry.isIntersecting){
           entry.target.classList.add('show');
         }
@@ -16,8 +15,6 @@ export default function App() {
     });
   
     const hiddenElements = document.querySelectorAll(".hidden", ".last-hidden");
-    console.log(hiddenElements)
-    console.log("huuuuuuh")
     hiddenElements.forEach((el) => observer.observe(el));
   });
   
