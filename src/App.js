@@ -33,7 +33,7 @@ export default function App() {
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='sunmmary'>This is the summary of myself, testing how the website update works???? update pleasseeeeeeeee</div>
+      <div className='sunmmary'>This is the summary of myself,does it work without pushing to git? so moved CNAME public it works now</div>
     </div>
   );
 }
