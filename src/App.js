@@ -33,7 +33,7 @@ export default function App() {
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='sunmmary'>This is the summary of myself,works without commit, and try deplay again this time pushed</div>
+      <div className='sunmmary'>In the process of converting old portfolio to this one, so is empty right now, but I will try to update it asap. Sorry 🥲</div>
     </div>
   );
 }
