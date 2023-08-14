@@ -33,7 +33,7 @@ export default function App() {
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='sunmmary'>This is the summary of myself,does it work without pushing to git? so moved CNAME public it works now</div>
+      <div className='sunmmary'>This is the summary of myself,works without commit, and try deplay again this time pushed</div>
     </div>
   );
 }
