@@ -71,7 +71,10 @@ function DiscordBot(){
       </div>
       <div className='bot-description hidden'>
         Technology used: Discord API - Python<br></br>
-        
+        <br></br>
+        This Discord Bot has mini-games in it like text adventures, gamba (both shown above), and magic 8 ball. Magic 8 ball is just magic 8 ball, nothing 
+        special about it. Gamba is more like a mini-gambling game that has a few ways to gamble. Text adventure uses hashmap and custom struct to 
+        parse the text file into different scenes. To see more you can look at the discord bot repo below. 👇🏻
         <br></br>
         <br></br>
         <a href="https://github.com/RitsuCloud/discord-bot">👉🏻 Discord Bot Repo</a>
