@@ -62,6 +62,7 @@ a:hover{
   margin-bottom: 400px;
 }
 
+.bot-description,
 .project-description,
 .summary{
   padding-left: 10%;
@@ -85,7 +86,16 @@ a:hover{
   font-size: 22px;
 } 
 
+.bot-img-container{
+  margin-top: -400px;
+}
+
+.bot-image{
+  margin-left: 20%;
+}
+
 .bot-description{
+  margin-top: -750px;
   font-size: 22px;
 }
 
@@ -96,7 +106,7 @@ a:hover{
 
 .bot-img-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .my-image-container{

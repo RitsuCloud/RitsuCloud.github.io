@@ -2,7 +2,10 @@ import './style/App.css';
 import Chon from "./imgs/chon.jpg";
 import {useEffect} from "react";
 import Navbar from "./NavBar.js";
-import castle1 from "./imgs/castle/ScreenShot00001.png"
+import castle1 from "./imgs/castle/ScreenShot00001.png";
+import adventure from "./imgs/discord-bot/adventure.png";
+import gamba from "./imgs/discord-bot/gamba.png";
+
 
 
 export default function App() {
@@ -63,12 +66,12 @@ function DiscordBot(){
     <div className='projects-container'>
       <div className='project-title hidden'>Discord Bot</div>
       <div className='bot-img-container'>
-        <div >LEFT</div>
-        <div >MID</div>
-        <div >RIGHT</div>
+        <img class="bot-image hidden" src={adventure} alt="adventure"></img>
+        <img class="bot-image hidden" src={gamba} alt="gamba"></img>
       </div>
       <div className='bot-description hidden'>
-        Description of the discord bot
+        Technology used: Discord API - Python<br></br>
+        
       </div>
     </div>
   );
