@@ -33,6 +33,7 @@ export default function App() {
       <div className='project-word'> Projects:</div>
       <Castle/>
       <DiscordBot/>
+      <Outro/>
       <Contact/>
     </div>
   );
@@ -101,6 +102,17 @@ function Intro(){
       <div className='hidden'>
         <div>I am Chon😄</div>
         <img class="chon" src={Chon} alt="Chon"></img>
+      </div>
+    </div>
+  );
+}
+
+function Outro(){
+  return(
+    <div className='outro-container hidden'>
+      <div className='summary'>
+        Thank you for taking your time to look at my portfolio, if you have any feedback/suggestion 
+        please let me know by sending me an email. Thank you 😆
       </div>
     </div>
   );
