@@ -67,6 +67,12 @@ a:hover{
   padding-right: 10%
 }
 
+.projects-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10%;
+}
+
 .my-image-container{
   text-align: center;
 }

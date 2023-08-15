@@ -25,6 +25,7 @@ export default function App() {
       </header>
       <Intro/>
       <Summary/>
+      <div className='project-word'> Projects:</div>
       <Project/>
       <Contact/>
     </div>
@@ -34,7 +35,8 @@ export default function App() {
 function Project(){
   return (
     <div className='projects-container'>
-      <div className='project-word'> Projects:</div>
+      <div className='project-title-description'>Left side</div>
+      <div className='project-images'>Right side</div>
     </div>
   );
 }
