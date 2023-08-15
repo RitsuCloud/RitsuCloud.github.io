@@ -28,13 +28,13 @@ export default function App() {
       <Intro/>
       <Summary/>
       <div className='project-word'> Projects:</div>
-      <Project/>
+      <Castle/>
       <Contact/>
     </div>
   );
 }
 
-function Project(){
+function Castle(){
   return (
     <div className='projects-container' id="project-id">
       <div>
@@ -50,7 +50,7 @@ function Project(){
           of my castle scenery with the link to my GitHub repo below.👇🏻
           <br></br>
           <br></br>
-          <a href="https://github.com/RitsuCloud/casteEnv">Castle Scenery Repo</a>
+          <a href="https://github.com/RitsuCloud/casteEnv">👉🏻 Castle Scenery Repo</a>
         </div>
       </div>
     </div>
