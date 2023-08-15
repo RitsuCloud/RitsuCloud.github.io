@@ -35,8 +35,17 @@ export default function App() {
 function Project(){
   return (
     <div className='projects-container'>
-      <div className='project-title-description'>Left side</div>
-      <div className='project-images'>Right side</div>
+      <div>
+        <div className='project-title'>
+          Castle Scenery with Unreal Engine 5
+        </div>
+        <div className='project-description'>
+          description
+        </div>
+      </div>
+      <div className='project-images'>
+        Links of images
+      </div>
     </div>
   );
 }

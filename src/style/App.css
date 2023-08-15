@@ -73,6 +73,16 @@ a:hover{
   padding-left: 10%;
 }
 
+.project-title{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.project-description{
+  font-size: 20px;
+}
+
 .my-image-container{
   text-align: center;
 }
