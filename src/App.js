@@ -64,7 +64,7 @@ function Intro(){
 
 function Contact(){
   return(
-    <div className='contact-container' id="contact-id">
+    <div className='contact-container hidden' id="contact-id">
       <div>Contact Me👇🏻</div>
       <p>
         Gmail: chonhinchou@gmail.com <br></br>
