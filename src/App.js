@@ -29,6 +29,7 @@ export default function App() {
       <Summary/>
       <div className='project-word'> Projects:</div>
       <Castle/>
+      <DiscordBot/>
       <Contact/>
     </div>
   );
@@ -43,7 +44,7 @@ function Castle(){
         </div>
         <img class="castle-image hidden" src={castle1} alt="Castle"></img>
         <div className='project-description hidden'>
-          Technology used: Blueprint - Quixel Bridge - Megascans<br></br>
+          Technology used: UE5 Blueprint - Quixel Bridge - Megascans<br></br>
           <br></br>
           Castle scenery uses Meagscans Quixel Bridge to find 8k meshes to add to my scenery, then with the help of
           the new nanite rendering technology to reduce the impact on performance from the meshes. You can find more screenshots
@@ -53,6 +54,14 @@ function Castle(){
           <a href="https://github.com/RitsuCloud/casteEnv">👉🏻 Castle Scenery Repo</a>
         </div>
       </div>
+    </div>
+  );
+}
+
+function DiscordBot(){
+  return(
+    <div className='projects-container'>
+      discord bot
     </div>
   );
 }
