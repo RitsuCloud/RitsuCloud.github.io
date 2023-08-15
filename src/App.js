@@ -43,7 +43,14 @@ function Project(){
         </div>
         <img class="castle-image hidden" src={castle1} alt="Castle"></img>
         <div className='project-description hidden'>
-          description
+          Technology used: Blueprint - Quixel Bridge - Megascans<br></br>
+          <br></br>
+          Castle scenery uses Meagscans Quixel Bridge to find 8k meshes to add to my scenery, then with the help of
+          the new nanite rendering technology to reduce the impact on performance from the meshes. You can find more screenshots
+          of my castle scenery with the link to my GitHub repo below.👇🏻
+          <br></br>
+          <br></br>
+          <a href="https://github.com/RitsuCloud/casteEnv">Castle Scenery Repo</a>
         </div>
       </div>
     </div>
