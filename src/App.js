@@ -42,8 +42,8 @@ function Project(){
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='summary'>I am a junior at the University of Washington Seattle, major in computer science. 
-      I enjoy solving challengin problems, meeting new people and learn from them, since I don't have much experience outside of school.
+      <div className='summary'>I am a junior at the University of Washington Seattle, majoring in computer science. 
+      I enjoy solving challenging problems, meeting new people, and learning from them since I don't have much experience outside of school.
       I have much to learn and am eager to do so. Nice to meet you!😁</div>
     </div>
   );
