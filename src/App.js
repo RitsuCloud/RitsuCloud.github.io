@@ -25,7 +25,16 @@ export default function App() {
       </header>
       <Intro/>
       <Summary/>
+      <Project/>
       <Contact/>
+    </div>
+  );
+}
+
+function Project(){
+  return (
+    <div className='projects-container'>
+      <div className='project-word'> Projects:</div>
     </div>
   );
 }
@@ -33,7 +42,9 @@ export default function App() {
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='sunmmary'>In the process of converting old portfolio to this one, so is empty right now, but I will try to update it asap. Sorry 🥲</div>
+      <div className='summary'>I am a junior at the University of Washington Seattle, major in computer science. 
+      I enjoy solving challengin problems, meeting new people and learn from them, since I don't have much experience outside of school.
+      I have much to learn and am eager to do so. Nice to meet you!😁</div>
     </div>
   );
 }
@@ -46,7 +57,7 @@ function Intro(){
       <div className='hidden'>
         <div>I am Chon😄</div>
         <img class="chon" src={Chon} alt="Chon"></img>
-        </div>
+      </div>
     </div>
   );
 }

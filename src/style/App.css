@@ -46,13 +46,25 @@ a:hover{
   font-size: 30px;
 }
 
+.project-word{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  margin-bottom: 100px;
+}
+
 .summary-container{
   text-align: center;
   margin-bottom: 70px;
   font-weight: bolder;
   font-size: 30px;
-  margin-top: -400px;
+  margin-top: -800px;
   margin-bottom: 400px;
+}
+
+.summary{
+  padding-left: 10%;
+  padding-right: 10%
 }
 
 .my-image-container{
