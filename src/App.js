@@ -2,6 +2,11 @@ import './style/App.css';
 import Chon from "./imgs/chon.jpg";
 import {useEffect} from "react";
 import Navbar from "./NavBar.js";
+import castle1 from "./imgs/castle/ScreenShot00001.png"
+import castle2 from "./imgs/castle/ScreenShot00005.png"
+import castle3 from "./imgs/castle/ScreenShot00010.png"
+import castle4 from "./imgs/castle/ScreenShot00011.png"
+
 
 export default function App() {
 
@@ -34,17 +39,15 @@ export default function App() {
 
 function Project(){
   return (
-    <div className='projects-container'>
+    <div className='projects-container' id="project-id">
       <div>
-        <div className='project-title'>
+        <div className='project-title hidden'>
           Castle Scenery with Unreal Engine 5
         </div>
-        <div className='project-description'>
+        <img class="castle-image hidden" src={castle1} alt="Castle"></img>
+        <div className='project-description hidden'>
           description
         </div>
-      </div>
-      <div className='project-images'>
-        Links of images
       </div>
     </div>
   );

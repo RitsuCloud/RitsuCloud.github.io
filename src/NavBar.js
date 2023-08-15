@@ -8,7 +8,7 @@ export default function NavBar(){
         <a href="#main-id">Home</a>
         <a href="https://www.linkedin.com/in/chon-hin-chou/">LinkedIn</a>
         <a href="https://github.com/RitsuCloud">GitHub</a>
-        <a href="#castle-project-id">Project</a>
+        <a href="#project-id">Project</a>
         <a href="#contact-id">Contact</a>
       </div>
     </div>
