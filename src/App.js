@@ -3,9 +3,6 @@ import Chon from "./imgs/chon.jpg";
 import {useEffect} from "react";
 import Navbar from "./NavBar.js";
 import castle1 from "./imgs/castle/ScreenShot00001.png"
-import castle2 from "./imgs/castle/ScreenShot00005.png"
-import castle3 from "./imgs/castle/ScreenShot00010.png"
-import castle4 from "./imgs/castle/ScreenShot00011.png"
 
 
 export default function App() {
