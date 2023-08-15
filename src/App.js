@@ -72,6 +72,9 @@ function DiscordBot(){
       <div className='bot-description hidden'>
         Technology used: Discord API - Python<br></br>
         
+        <br></br>
+        <br></br>
+        <a href="https://github.com/RitsuCloud/discord-bot">👉🏻 Discord Bot Repo</a>
       </div>
     </div>
   );
