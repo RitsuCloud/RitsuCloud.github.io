@@ -61,7 +61,15 @@ function Castle(){
 function DiscordBot(){
   return(
     <div className='projects-container'>
-      discord bot
+      <div className='project-title hidden'>Discord Bot</div>
+      <div className='bot-img-container'>
+        <div >LEFT</div>
+        <div >MID</div>
+        <div >RIGHT</div>
+      </div>
+      <div className='bot-description hidden'>
+        Description of the discord bot
+      </div>
     </div>
   );
 }
@@ -91,7 +99,7 @@ function Intro(){
 
 function Contact(){
   return(
-    <div className='contact-container hidden' id="contact-id">
+    <div className='contact-container' id="contact-id">
       <div>Contact Me👇🏻</div>
       <p>
         Gmail: chonhinchou@gmail.com <br></br>
