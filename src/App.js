@@ -87,9 +87,11 @@ function DiscordBot(){
 function Summary(){
   return(
     <div className='summary-container hidden'>
-      <div className='summary'>I am a junior at the University of Washington Seattle, majoring in computer science. 
-      I enjoy solving challenging problems, meeting new people, and learning from them since I don't have much experience outside of school.
-      I have much to learn and am eager to do so. Nice to meet you!😁</div>
+      <div className='summary'>I am a senior at the University of Washington Seattle, majoring in computer science. 
+      I am passionate about solving complex problems and thrive on collaboration, always seeking opportunities to
+      meet new people and learn from their experiences. I recognize there is much to be learned and am very eager to 
+      do so. I am excited to make a meaningful impact and contribute to any project I am part of. Nice to meet you! 
+      Nice to meet you!😁</div>
     </div>
   );
 }
@@ -97,8 +99,7 @@ function Summary(){
 function Intro(){
   return(
     <div className='main-body-container' id="main-id">
-      <div className='hidden'>Welcome!⬇️😊</div>
-      <div className='hidden'>To My Portfolio</div>
+      <div className='hidden'>Welcome To My Portfolio!⬇️😊</div>      
       <div className='hidden'>
         <div>I am Chon😄</div>
         <img class="chon" src={Chon} alt="Chon"></img>
